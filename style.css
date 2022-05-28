@@ -1,5 +1,114 @@
-body {
-    text-align: center;
-    background-image: url("https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif");
- 
+.container {
+border: 1px solid;
+margin: 10px;
+}
+/* Color Containers */
+.color-container {
+margin: 20px;
+}
+.color-lable, .color-hex {
+text-align: center;
+}
+.color-pannel-orange {
+background-color: #ff7300;
+height: 100px;
+width: 100px;
+display: inline-block;
+margin: 20px;
+}
+.color-pannel-purple {
+background-color: #7a008c;
+height: 100px;
+width: 100px;
+display: inline-block;
+margin: 20px;
+}
+.color-pannel-blue {
+background-color:#2d5dcc;
+height: 100px;
+width: 100px;
+display: inline-block;
+margin: 20px;
+}
+/* Font Containers */
+.font-container {
+border: darkblue dotted 1px;
+}
+.font-pannel {
+display: inline-block;
+margin: 20px;
+border: darkblue solid;
+}
+/*roboto*/
+.font-lable-roboto {
+text-decoration: underline;
+font-family: 'Roboto', sans-serif;
+}
+.roboto-regular {
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+}
+.roboto-bold {
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+}
+.roboto-italic {
+font-style:italic;
+font-family: 'Roboto', sans-serif;
+}
+/*Lato*/
+.font-lable-lato {
+text-decoration: underline;
+font-family: 'Lato', sans-serif;
+}
+.lato-regular {
+text-decoration: none;
+font-family: 'Lato', sans-serif;
+}
+.lato-bold {
+font-weight: bold;
+font-family: 'Lato', sans-serif;
+}
+.lato-italic {
+font-style:italic;
+font-family: 'Lato', sans-serif;
+}
+/*Ubuntu*/
+.font-lable-ubuntu {
+text-decoration: underline;
+font-family: 'Ubuntu', sans-serif;
+}
+.ubuntu-regular {
+text-decoration: none;
+font-family: 'Ubuntu', sans-serif;
+}
+.ubuntu-bold {
+font-weight: bold;
+font-family: 'Ubuntu', sans-serif;
+}
+.ubuntu-italic {
+font-style:italic;
+font-family: 'Ubuntu', sans-serif;
+}
+/*Text Containers */
+.text-container {
+margin: 20px;
+}
+.text-pannel {
+border: orange dotted 1px;
+}
+h1 {
+font-family: 'Roboto', sans-serif;
+font-size:26px;
+font-weight: 700;
+}
+h2 {
+font-family: 'Lato', sans-serif;
+font-size:18px;
+font-weight:500px;
+}
+p {
+font-family: 'Ubuntu', sans-serif;
+font: size 14px;
+font-weight: 400;
 }
